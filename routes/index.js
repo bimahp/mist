@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.post('/register', function(req, res, next) {
+  console.log('register')
+  res.json({text: 'banana'})
+})
+
 module.exports = router;
