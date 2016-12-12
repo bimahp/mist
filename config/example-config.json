@@ -1,3 +1,7 @@
+/*
+  RENAME this file into config.json
+*/
+
 {
   "development": {
     "username": "root",
