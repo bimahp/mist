@@ -1,0 +1,20 @@
+{
+  "name": "mist",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "bimahp <me@bimahp.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bimahp/mist",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
