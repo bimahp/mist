@@ -1,8 +1,15 @@
 doctype html
-html
+html(ng-app)
   head
     title= title
     link(rel='stylesheet', href='/bootstrap/dist/css/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     block content
+    button(type='button' class='btn btn-primary') This is button from bootstrapCSS
+    br
+    | {{'This' + ' is' + ' from' + ' angular'}}
+
+    script(src='/angular/angular.min.js')
+    script(src='/angular-animate/angular-animate.min.js')
+    script(src='/angular-touch/angular-touch.min.js')
